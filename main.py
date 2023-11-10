@@ -21,7 +21,6 @@ def secret():
     password = ""
     for i in range (10):
         password += random.choice(elements)
-        return password
     
     return '<h1>Ты попал на секретный сайт. Тут мы генерируем самые надежные пароли... Храни это в секрете!</h1>' f"<h2>{(password)}</h2>"
 
